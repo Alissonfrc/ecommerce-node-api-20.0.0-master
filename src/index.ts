@@ -25,9 +25,9 @@ async function main() {
     //Recuperar Categoria por UUID//
     ////////////////////////////////
     
-    //const categoriaRecuperada: Categoria | null = await categoriaRepo.recuperarPorUuid("7061d559-ab25-4182-98ce-170afdf2acd2");
+    const categoriaRecuperada: Categoria | null = await categoriaRepo.recuperarPorUuid("7061d559-ab25-4182-98ce-170afdf2acd2");
 
-    //console.log(categoriaRecuperada);
+    console.log(categoriaRecuperada);
 
     /////////////////////////////////
     //Recuperar Todas as Categorias//
